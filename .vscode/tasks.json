@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "HBMK2",
+			"input": "test.hbp",
+			"problemMatcher": [
+				"$harbour",
+				"$msCompile"
+			],
+			"label": "HBMK2: Builda test.hbp",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"windows": {
+				"setupBatch": "c:\\harbour\\start32.bat"
+			}
+
+		}
+	]
+}

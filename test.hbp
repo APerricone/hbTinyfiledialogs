@@ -1,0 +1,12 @@
+hello.prg
+
+hbTinyfiledialogs.c
+tinyfiledialogs.c
+
+#-gc3
+#-debug
+#-cflag=/Od
+#-workdir=obj/
+#-inc
+
+
